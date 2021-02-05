@@ -79,4 +79,22 @@ giti常用命令
 	git add [file]\[dir]\.（点号代表目录下所有文件）
 拉取：
 	git pull
+	
+查看分支
+	git branch 查看本地分支
+	git branch -a 查看所有远程端的分支 
+	git checkout -b 分支名 本地创建分支
+	git 分支名 切换到分支
+
+删除分支
+	注：不能删除当前工作分支，需要先切换到其它分支
+	注：-D强制删除，注意使用
+
+	git branch -d 分支名 删除本地分支
+	git branch -r -d 分支名 删除远程分支
+	git push origin :branch1 #注意origin（是远程项目名）后面有空格 
+	
+	
+	
 ```
+
