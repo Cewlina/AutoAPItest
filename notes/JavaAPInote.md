@@ -66,17 +66,19 @@ IdentityFile 绝对路径+id-rsa
 
 ```
 
-giti常用命令
+git常用命令
 
 ```git
 克隆：
 	git clone 地址
+提交:
+    git add .
+    git add [file]\[dir]\.（点号代表目录下所有文件）
 推送：
 	git commit -m "提交信息" 本次提交的说明文件
 	git push
 查看：
 	git status
-	git add [file]\[dir]\.（点号代表目录下所有文件）
 拉取：
 	git pull
 	
@@ -218,6 +220,16 @@ public Object[][] providerData(){
 
 
 ```
+
+
+
+### HttpClient
+
+#### 配置文件
+
+通过在resources下增加properties文件进行配置。
+
+在java类中，引用bundle = ResourceBundle.getBundle("文件名");进行读取
 
 
 

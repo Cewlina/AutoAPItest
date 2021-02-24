@@ -6,6 +6,6 @@ public class BasicAnnotation {
 
     @Test
     public void testCase(){
-
+        System.out.println("这是测试用例");
     }
 }
